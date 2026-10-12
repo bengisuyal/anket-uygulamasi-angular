@@ -1,59 +1,43 @@
-# AnketUygulamasiAngular
+# Çevre Kirliliği Anket Uygulaması
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.2.
+Angular ile geliştirilmiş, kullanıcıların çevre kirliliğine yönelik anket sorularını cevaplayabildiği ve yöneticilerin cevapları görüntüleyip soru ekleyebildiği bir web uygulamasıdır.
 
-## Development server
+# Özellikler
+Kullanıcılar rumuz ile ankete katılabilir.
+Klasik ve çoktan seçmeli soru tipleri desteklenir.
+Şifre korumalı yönetici paneli.
+Yönetici soru ekleyebilir, düzenleyebilir ve silebilir.
+Kullanıcı cevapları ve ankete ne zaman katıldıkları yönetici panelinden görüntülenebilir.
+Tüm veriler tarayıcının localStorage'ında saklanır.
 
-To start a local development server, run:
+# Kullanılan Teknolojiler
 
-```bash
-ng serve
+Angular
+TypeScript
+Bootstrap
+localStorage
+
+# Kurulum 
+
+npm install
+npm start
+
+# Proje Dosya Yapısı
+```
+src/app/
+├── services/
+│   └── anket.ts      → Veri yönetimi
+├── app.ts            → Ana component
+├── app.html          → Arayüz şablonu
+└── app.css           → Stiller
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+# Yönetici Paneli
 
-## Code scaffolding
+Yönetici paneline erişmek için şifre: 1234
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Notlar
+Uygulama npm start komutuyla başlatılmalıdır. 
+VS Code'un "Run Without Debugging" seçeneği Bootstrap stillerini yüklemez.
+Veriler sunucu gerektirmez tarayıcıda saklanır.
+---

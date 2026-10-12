@@ -12,9 +12,12 @@ Tüm veriler tarayıcının localStorage'ında saklanır.
 
 # Kullanılan Teknolojiler
 
-Angular
-TypeScript
-Bootstrap
+Angular,
+
+TypeScript,
+
+Bootstrap,
+
 localStorage
 
 # Kurulum 

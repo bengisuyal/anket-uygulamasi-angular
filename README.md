@@ -4,10 +4,15 @@ Angular ile geliştirilmiş, kullanıcıların çevre kirliliğine yönelik anke
 
 # Özellikler
 Kullanıcılar rumuz ile ankete katılabilir.
+
 Klasik ve çoktan seçmeli soru tipleri desteklenir.
+
 Şifre korumalı yönetici paneli.
+
 Yönetici soru ekleyebilir, düzenleyebilir ve silebilir.
+
 Kullanıcı cevapları ve ankete ne zaman katıldıkları yönetici panelinden görüntülenebilir.
+
 Tüm veriler tarayıcının localStorage'ında saklanır.
 
 # Kullanılan Teknolojiler

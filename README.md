@@ -12,17 +12,18 @@ Tüm veriler tarayıcının localStorage'ında saklanır.
 
 # Kullanılan Teknolojiler
 
-Angular,
+Angular
 
-TypeScript,
+TypeScript
 
-Bootstrap,
+Bootstrap
 
 localStorage
 
 # Kurulum 
 
 npm install
+
 npm start
 
 # Proje Dosya Yapısı
@@ -41,6 +42,9 @@ Yönetici paneline erişmek için şifre: 1234
 
 # Notlar
 Uygulama npm start komutuyla başlatılmalıdır. 
+
 VS Code'un "Run Without Debugging" seçeneği Bootstrap stillerini yüklemez.
+
 Veriler sunucu gerektirmez tarayıcıda saklanır.
+
 ---
